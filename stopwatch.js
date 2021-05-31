@@ -1,12 +1,16 @@
+// Setup
 let secondCount = 0;
 let stopWatch;
 const displayPara = document.getElementById('timerDigits');
 
+// Main stopwatch function
 function displayCount() {
+    // Turning times into valid numbers for display
     let hours = Math.floor(secondCount/3600);
     let minutes = Math.floor((secondCount % 3600)/60);
     let seconds = Math.floor(secondCount % 60)
 
+    // Ensuring that all 3 sections of stopwatch always display 2 figures
     if (hours < 10) {
         displayHours = '0' + hours;
     } else {
@@ -21,7 +25,10 @@ function displayCount() {
         displaySeconds = '0' + seconds;
     } else {displaySeconds = seconds}
 
+    // Setting display
     displayPara.innerHTML = displayHours + ':' + displayMinutes + ':' + displaySeconds;
+    
+    // Increments second-count each time function is run
     secondCount++;
 }
 
@@ -30,10 +37,12 @@ const startButton = document.getElementById('startButton');
 const stopButton = document.getElementById('stopButton');
 const resetButton = document.getElementById('resetButton');
 
-// Interactivity
+// Button Interactivity
 startButton.addEventListener('click', () => {
     stopWatch = setInterval(displayCount, 1000);
     startButton.disabled = true;
+    startButton.style.backgroundColor = 'pink';
+    startButton.style.innerHTML = 'STARTED'
 });
 
 stopButton.addEventListener('click', () => {
@@ -52,4 +61,5 @@ resetButton.addEventListener('click', () => {
     resetButton.innerHTML = 'RESET';
 });
 
+// Sets stopwatch to 00:00:00 as soon as script finishes loading
 displayCount();
