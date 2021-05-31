@@ -5,7 +5,7 @@
 * [Technologies](#technologies)
 * [Status](#status)
 * [Chronlogical Updates](#chronological-updates)
-* [TODO](#to-do)
+* [To-Do](#to-do)
 
 
 ## Introduction
