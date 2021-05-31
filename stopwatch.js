@@ -63,3 +63,6 @@ resetButton.addEventListener('click', () => {
 
 // Sets stopwatch to 00:00:00 as soon as script finishes loading
 displayCount();
+
+// Exports Timer Function for testing
+// export default displayCount;

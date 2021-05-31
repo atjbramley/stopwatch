@@ -1,5 +1,5 @@
-var assert = require("assert");
-var displayCount =  require(".stopwatch.js")
+// var assert = require("assert");
+// var displayCount = require('../stopwatch.js').default
 
 describe('Stopwatch', () => {
   describe('Startbutton', () => {
@@ -32,6 +32,7 @@ describe('Stopwatch', () => {
       it('Will run tests on the stopButton', () => {
         // Stopbutton test 1
       });
+
       it('Will run a second test ont the stopButton', () => {
         // Stopbutton test 2
       });
