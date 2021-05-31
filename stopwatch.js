@@ -40,9 +40,9 @@ const resetButton = document.getElementById('resetButton');
 // Button Interactivity
 startButton.addEventListener('click', () => {
     stopWatch = setInterval(displayCount, 1000);
-    startButton.disabled = true;
     startButton.style.backgroundColor = 'pink';
-    startButton.style.innerHTML = 'STARTED'
+    startButton.innerHTML = 'STARTED'
+    startButton.disabled = true;
 });
 
 stopButton.addEventListener('click', () => {

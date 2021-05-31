@@ -1,0 +1,30 @@
+{
+  "name": "stopwatch",
+  "version": "1.0.0",
+  "description": "JavaScript Stopwatch hosted in responsive HTML page",
+  "main": "stopwatch.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atjbramley/stopwatch.git"
+  },
+  "keywords": [
+    "stopwatch",
+    "javascript",
+    "css",
+    "html",
+    "responsive",
+    "flexbox"
+  ],
+  "author": "Adam Bramley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atjbramley/stopwatch/issues"
+  },
+  "homepage": "https://github.com/atjbramley/stopwatch#readme",
+  "devDependencies": {
+    "mocha": "^8.4.0"
+  }
+}
