@@ -1,12 +1,12 @@
 # Stopwatch
 
 ## Table of Contents
-* [Introduction](#introduction)
-* [Technologies](#technologies)
-* [Status](#status)
-* [Chronlogical Updates](#chronological-updates)
-* [To-Do](#to-do)
 
+- [Introduction](#introduction)
+- [Technologies](#technologies)
+- [Status](#status)
+- [Chronlogical Updates](#chronological-updates)
+- [To-Do](#to-do)
 
 ## Introduction
 
@@ -20,13 +20,13 @@ Welcome to this JavaScript stopwatch, which I'm using to practise using the setI
 
 ## Status
 
-The project is in a beta phase!  It works, but all there are bugs remaining.
+The project is in a beta phase! It works, but all there are bugs remaining.
 
 ## Chronological Updates
 
 ##### 31/5/2021
-Repository initialised and readme created
 
+Repository initialised and readme created
 
 ## To-do
 
@@ -39,4 +39,4 @@ Here's what remains to be done in this project:
 
 ## Known Bugs
 
-- Clicking multiple times on the start button will cause multiple seconds to be added per tick.  
+- Clicking multiple times on the start button will cause multiple seconds to be added per tick.
