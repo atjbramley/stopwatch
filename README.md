@@ -11,6 +11,8 @@
 ## Introduction
 
 Welcome to this JavaScript stopwatch, which I'm using to practise using the setInterval and clearInterval functions.
+Project originated from Mozilla exercises here:
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Timeouts_and_intervals
 
 ## Technologies
 
